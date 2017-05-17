@@ -1,0 +1,20 @@
+{
+  "name": "wallet-website",
+  "description": "Landing page for Multisig wallet",
+  "main": "index.html",
+  "authors": [
+    "denis@gnosis.pm"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/gnosis/wallet-website",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ua-parser-js": "^0.7.12"
+  }
+}
