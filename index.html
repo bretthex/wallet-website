@@ -188,7 +188,10 @@
       <div class=inner></div>
    </div>
 </div>
-<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js></script><script src=//code.jquery.com/jquery-migrate-1.2.1.min.js></script><script>function getOptimalVideoFrameSize() {
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js></script>
+<script src="./bower_components/ua-parser-js/dist/ua-parser.min.js"></script>
+<script src=//code.jquery.com/jquery-migrate-1.2.1.min.js></script>
+<script>function getOptimalVideoFrameSize() {
    var max_width = Math.min(720, $(window).width() - 50)
        , aspect_ratio = 16 / 9
        , frame_height = .8 * $(window).height()
