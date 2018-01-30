@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server -a 0.0.0.0 -p 5000",
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "deploy": "aws s3 sync ./ s3://wallet-website-prod --exclude '.git/*' --exclude '.DS_Store'"
   },
   "author": "denis@gnosis.pm",
   "license": "GPL-3.0",
